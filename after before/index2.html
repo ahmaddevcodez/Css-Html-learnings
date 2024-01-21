@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        background-color: #000000;
+      }
+      :root {
+        --b-a-width: 70vh;
+        --b-a-md-width: 15vh;
+        --b-a-sm-width: 70vh;
+        --b-a-sm-sm-width: 50vh;
+        --b-a-sm-sm-sm-width: 30vh;
+        --b-a-sm-sm-sm-sm-width: 20vh;
+        --width: 100vw;
+      }
+      h1 {
+        font-size: 4rem;
+        font-family: "Grenze Gotisch", cursive;
+        letter-spacing: 2px;
+        line-height: 2px;
+        color: #ff1d1d;
+      }
+      p {
+        display: inline;
+        color: #c8d700;
+      }
+      .main-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: var(--width);
+        height: 100vh;
+        text-align: center;
+        position: relative;
+      }
+      h1::after {
+        content: "\f005";
+        font-family: "Font Awesome 5 Free";
+        width: 20vw;
+        height: 25px;
+        font-size: 3rem;
+        color: #1abc9c;
+        display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <h1>
+        HENNRY
+        <p class="para">CODES</p>
+      </h1>
+    </div>
+  </body>
+</html>

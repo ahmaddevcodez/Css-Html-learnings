@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+      }
+      html {
+        font: 62.5%;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+        position: relative;
+
+        /* overflow: ; */
+      }
+      body {
+        transition: 500ms all cubic-bezier(0.39, 0.575, 0.565, 1);
+      }
+      /*----------------------------------------CLASSWSS-------------------------------------------------*/
+
+      .flex {
+        display: flex;
+      }
+      .justify-content-center {
+        justify-content: center;
+      }
+      .justify-content-between {
+        justify-content: space-between;
+      }
+      .justify-content-around {
+        justify-content: space-around;
+      }
+      .justify-content-flexend {
+        justify-content: flex-end;
+      }
+      .justify-content-flexstart {
+        justify-content: flex-start;
+      }
+      .align-items-center {
+        align-items: center;
+      }
+      .gap-10 {
+        gap: 10px;
+      }
+      .gap-20 {
+        gap: 20px;
+      }
+      .gap-30 {
+        gap: 30px;
+      }
+      .main-images {
+        display: flex;
+        width: 100%;
+        background-color: red;
+      }
+      .main-images img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+      .main-images div {
+        width: 30%;
+      }
+      .main-wrap {
+        width: 100vw;
+        background-color: yellowgreen;
+        max-height: 500px;
+      }
+      .main-wrap img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-images">
+      <div>
+        <img src="./1.png" alt="" />
+      </div>
+
+      <div>
+        <img src="./2.png" alt="" />
+      </div>
+    </div>
+    <div class="main-wrap">
+      <img src="./3 (1).jpg" alt="" />
+    </div>
+  </body>
+</html>

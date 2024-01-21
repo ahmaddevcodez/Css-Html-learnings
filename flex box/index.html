@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * body {
+      background-color: black;
+      color: white;
+    }
+    .container {
+      /* height: 600px; */
+      width: 100%;
+      border-radius: 10px;
+      border: 3px solid tomato;
+      display: flex;
+      /* flex-direction: row-reverse; */
+      /* flex-wrap: wrap-reverse; */
+    }
+    .box {
+      height: 200px;
+      width: 200px;
+      background-color: aquamarine;
+      color: midnightblue;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    .img {
+      height: 200px;
+      width: 200px;
+      background-color: aquamarine;
+      color: midnightblue;
+    }
+    #item-1 {
+      /* flex-grow: 20;
+      flex-shrink: 13;
+      flex-basis: 250px; */
+      /* flex :flex-grow  flex-shrink  flex-basis value of flex */
+      flex: 2 2 300px;
+    }
+    #item-2 {
+      /* flex-grow: 30; */
+    }
+    #item-3 {
+      /* flex-grow: 420; */
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="box" id="item-1">box 1</div>
+      <div class="box" id="item-2">box 2</div>
+      <div class="box" id="item-3">box 3</div>
+      <!-- <div class="box" id="item-4">box 4</div>
+      <div class="box" id="item-5">box 5</div>
+      <div class="box" id="item-6">box 6</div>
+      <div class="box" id="item">box 7</div>
+    <div class="box" id="item">box 8</div>
+    <div class="box" id="item">box 9</div> -->
+    </div>
+  </body>
+</html>

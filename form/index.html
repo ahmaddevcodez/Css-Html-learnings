@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Email Form</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+
+      .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 0;
+      }
+
+      .email-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .email-input {
+        flex-grow: 1;
+        padding: 10px;
+        border: 1px solid #cccccc;
+        border-right: none;
+        border-radius: 5px 0 0 5px;
+      }
+
+      .submit-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4caf50;
+        border: none;
+        color: #ffffff;
+        font-size: 16px;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+      }
+
+      .submit-button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Email Subscription</h1>
+      <form class="email-form">
+        <input
+          type="email"
+          class="email-input"
+          placeholder="Enter your email"
+          required
+        />
+        <button type="submit" class="submit-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-arrow-right"
+          >
+            <path d="M5 12h13l-4 4m0-8l4 4m-4-4H3"></path>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
